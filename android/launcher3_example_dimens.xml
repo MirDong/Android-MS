@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android 15 Launcher3 垂直间距调整示例配置文件
+    文件位置：packages/apps/Launcher3/res/values/dimens.xml
+    
+    使用说明：
+    1. 备份原始的 dimens.xml 文件
+    2. 将以下配置添加到现有的 dimens.xml 中，或替换对应的值
+    3. 根据需要调整具体的数值
+-->
+<resources>
+    <!-- ========== 核心垂直间距配置 ========== -->
+    
+    <!-- 主要的垂直单元格间距 - 这是最重要的参数 -->
+    <!-- 默认值通常是 4dp-8dp，建议调整到 12dp-16dp -->
+    <dimen name="dynamic_grid_cell_padding_y">14dp</dimen>
+    
+    <!-- 工作区图标的垂直间距 -->
+    <!-- 影响主屏幕图标之间的垂直距离 -->
+    <dimen name="workspace_cell_padding_y">16dp</dimen>
+    
+    <!-- 应用抽屉中图标的垂直间距 -->
+    <!-- 影响所有应用页面中图标的垂直距离 -->
+    <dimen name="all_apps_cell_padding_y">18dp</dimen>
+    
+    <!-- ========== 细节调整参数 ========== -->
+    
+    <!-- 图标上下的内边距 -->
+    <dimen name="app_icon_padding_vertical">6dp</dimen>
+    
+    <!-- 动态网格的顶部间距 -->
+    <dimen name="dynamic_grid_cell_padding_top">8dp</dimen>
+    
+    <!-- 动态网格的底部间距 -->
+    <dimen name="dynamic_grid_cell_padding_bottom">8dp</dimen>
+    
+    <!-- 图标文字与图标之间的距离 -->
+    <dimen name="icon_text_padding">4dp</dimen>
+    
+    <!-- ========== 不同场景的间距配置 ========== -->
+    
+    <!-- 文件夹内图标的垂直间距 -->
+    <dimen name="folder_cell_padding_y">10dp</dimen>
+    
+    <!-- 搜索结果中图标的垂直间距 -->
+    <dimen name="search_result_padding_y">12dp</dimen>
+    
+    <!-- 小部件之间的垂直间距 -->
+    <dimen name="widget_padding_vertical">8dp</dimen>
+    
+    <!-- ========== 屏幕适配相关 ========== -->
+    
+    <!-- 最小垂直间距（防止过小） -->
+    <dimen name="min_cell_padding_y">6dp</dimen>
+    
+    <!-- 最大垂直间距（防止过大） -->
+    <dimen name="max_cell_padding_y">24dp</dimen>
+    
+    <!-- ========== 辅助参数 ========== -->
+    
+    <!-- 页面指示器的垂直边距 -->
+    <dimen name="page_indicator_margin_vertical">12dp</dimen>
+    
+    <!-- 搜索栏的上下边距 -->
+    <dimen name="search_bar_margin_vertical">8dp</dimen>
+    
+    <!-- Hotseat（底部快捷栏）的上边距 -->
+    <dimen name="hotseat_bar_margin_top">16dp</dimen>
+    
+</resources>
